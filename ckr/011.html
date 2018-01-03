@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			#d1{
+			height:200px;
+			width:200px;
+			background-color:pink;	
+			
+			position: relative;/*定位*/
+			
+			overflow: hidden;/*Scroll滚动*/
+			}
+			#d2{
+			height:30px;
+			width:100px;
+			background-color:cornflowerblue;
+			
+			position:absolute;
+			right: -20px;/*向右移动*/
+			
+			transform: rotate(40deg);/*旋转*/
+			
+			box-shadow: 1px 1px 10px black;/*阴影*/
+			}
+		</style>
+	</head>
+	<body>
+		<div id="d1">
+		<div id="d2"></div>
+		</div>
+	</body>
+</html>
